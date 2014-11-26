@@ -170,6 +170,12 @@ button:hover {
 	color: white;
 }
 
+.icons {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
 .box-1 {
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.6);;
@@ -185,11 +191,6 @@ button:hover {
 	background-color: rgba(0, 0, 0, 0.4);;
 }
 
-.icons {
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
-}
 .quote {
 	text-align: center;
 	background-color: black;
