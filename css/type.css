@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 'Raleway', sans-serif;
+  font: 100%/1.5 'Raleway', sans-serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -45,7 +45,7 @@ fieldset, pre, table {
 
 h1, .exa {
   font-size: 3.0518rem;
-  line-height: 1.4746;
+  line-height: 1.2;
 }
 
 h2, .peta {
