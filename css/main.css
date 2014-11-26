@@ -133,6 +133,7 @@ img {
 
 .line {
 	margin-top: 2rem;
+	margin-bottom: 2rem;
 	background-color: rgba(255, 255, 255, 0.6);;
 }
 
@@ -170,18 +171,27 @@ button:hover {
 }
 
 .box-1 {
-	background-color: rgba(255, 252, 3, 0.6);;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);;
 }
 
 .box-2 {
-	background-color: rgba(255, 252, 3, 0.8);;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);;
 }
 
 .box-3 {
-	background-color: rgba(255, 252, 3, 0.4);;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);;
 }
 
+.icons {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
 .quote {
+	text-align: center;
 	background-color: black;
 	color: white;
 }
