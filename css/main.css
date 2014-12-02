@@ -54,7 +54,7 @@ img {
 }
 
 .head {
-    background-color: grey;
+    background-color: rgba(40,40,40,1);
     overflow: hidden;
 }
 
@@ -66,8 +66,8 @@ img {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	bottom: 0;
-	height: 40px;
+	bottom: 1%;
+	height: 50px;
 	overflow: hidden;
 	position: absolute;
 	right: 1.5em;
@@ -78,11 +78,11 @@ img {
 }
 
 .nav-btn[data-state="active"] {
-	background-color: yellow;
+	background-color: rgba(255,247,0,1);
 }
 
 .nav {
-	background-color: yellow;
+	background-color: rgba(255,247,0,1);
 }
 
 .nav > ul {
@@ -96,15 +96,15 @@ img {
 .nav a:visited {
 	display: block;
 	padding: 0.5em 10px;
-	color: grey;
+	color: rgba(40,40,40,1);
 	text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: grey;
-	color: yellow;
+	background-color: rgba(40,40,40,1);
+	color: rgba(255,247,0,1);
 }
 
 .nav-bottom {
@@ -125,21 +125,33 @@ img {
 	max-height: 14em;
 }
 
-
 .billboard {
-	background-color: yellow;
+	background-color: rgba(255,247,0,1);	
+	background-image: url(../images/billbored.jpg);
+	width: 100%;
+	overflow: hidden;
 	height: 25rem;
 }
 
-.line {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	background-color: rgba(255, 255, 255, 0.6);;
+.overlay {
+	background-color: rgba(255,247,0,0.2);
 }
 
 .title {
 	font-weight: 900;
-	color: black;
+	color: white;
+	text-transform: capitalize;
+	text-shadow: rgba(40,40,40,0.8) 0.15rem 0.15rem 0.05rem;
+}
+
+.subhead {
+	font-weight: 500;
+	color: white;
+	text-shadow: rgba(40,40,40,0.8) 0.15rem 0.15rem 0.05rem;
+}
+
+.title-block {
+	text-align: center;
 }
 
 .middle {
@@ -151,21 +163,21 @@ img {
 }
 
 button {
-	color: grey;
-	border: 3px solid white;
-	background-color: black;
-	font-weight: bold;
-	padding: 0.5em 0.75em;
+	color: rgba(40,40,40,1);
+	border: none;
+	background-color: rgba(255,247,0,0.8);
+	font-weight: 800;
+	padding: .5em .5em;
 }
 
 button:hover {
-	background-color: yellow;
+	background-color: rgba(255,247,0,0.5);
 	cursor: pointer;
 	color: #fff;
 }
 
 .why {
-	background-color: grey;
+	background-color: rgba(40,40,40,1);
 	text-align: center;
 	color: white;
 }
@@ -176,31 +188,115 @@ button:hover {
 	width: 50%;
 }
 
+.icon-back {
+	background-color: rgba(100,100,100,1);
+	background-image: url(../images/seats.jpg);
+	text-align: center;
+}
+
+.why-title {
+	color: white;
+}
+
+.why-copy {
+	color: white;
+}
+
 .box-1 {
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.6);;
+	background-color: rgba(40,40,40,0.7);
 }
 
 .box-2 {
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.8);;
+	background-color: rgba(40,40,40,0.7);
 }
 
 .box-3 {
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.4);;
+	background-color: rgba(40,40,40,0.7);
+}
+
+.quote-marks:before {
+		position: relative;
+		font-weight: 900;
+		right: 5%;
+		top: 2rem;
+	    content: "“";
+	    font-size: 6rem;
+}
+
+.quote-marks:after {
+	    content: "”";
+	    font-weight: 500;
 }
 
 .quote {
+	line-height: 1.2rem;
 	text-align: center;
-	background-color: black;
-	color: white;
+	background-color: rgba(255,247,0,1);
+	color: black;
+	font-weight: 600;
 }
 
 .foot {
-	background-color: grey;
+	background-color: rgba(40,40,40,1);
 }
 
+.copyright {
+	color: white;
+	font-weight: 500;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+.box-1 {
+	text-align: center;
+	background-color: rgba(255,247,0,0.3);
+}
+
+.box-2 {
+	text-align: center;
+	background-color: rgba(40,40,40,0.5);
+}
+
+.box-3 {
+	text-align: center;
+	background-color: rgba(40,40,40,0.8);
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 60em) {
+
+.title-block {
+	text-align: left;
+}
+
+.title {
+	padding-top: 3rem;
+}
+
+.box-1 {
+	text-align: center;
+	background-color: rgba(40,40,40,0.5);
+}
+
+.box-2 {
+	text-align: center;
+	background-color: rgba(255,247,0,0.3);
+}
+
+.box-3 {
+	text-align: center;
+	background-color: rgba(40,40,40,0.8);
+}
+
+}
 
 
 
