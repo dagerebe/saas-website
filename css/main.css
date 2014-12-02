@@ -252,17 +252,20 @@ button:hover {
 	background-color: rgba(40,40,40,1);
 }
 
-.price-box {
-	background-color: grey;
-	width: 10rem;
-	height: 20rem;
+.price-margin {
+	margin: 0 1.5rem 1.5rem 3rem;
 }
 
+.price-box {
+	background-color: grey;
+	text-align: center;
+	margin-top: 2rem;
+}
 
 .popcorn {
 	position: relative;
-	margin: 5rem;
 	transform: scale(.5);
+	margin-left: -40%;
 }
 
 .circle {
