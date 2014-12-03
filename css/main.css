@@ -127,27 +127,22 @@ img {
 
 .billboard {
 	background-color: rgba(255,247,0,1);	
-	background-image: url(../images/billbored.jpg);
+	background-image: url(../images/billboard.jpg);
 	width: 100%;
+	background-size: 100%;
 	overflow: hidden;
 	height: 30rem;
 }
 
-.overlay {
-	background-color: rgba(255,247,0,0.2);
-}
-
 .title {
 	font-weight: 900;
-	color: white;
+	color: rgba(255,247,0,1);
 	text-transform: capitalize;
-	text-shadow: rgba(40,40,40,0.8) 0.15rem 0.15rem 0.05rem;
 }
 
 .subhead {
 	font-weight: 500;
 	color: white;
-	text-shadow: rgba(40,40,40,0.8) 0.15rem 0.15rem 0.05rem;
 }
 
 .title-block {
@@ -248,9 +243,6 @@ button:hover {
 	font-weight: 500;
 }
 
-.back {
-	background-color: rgba(40,40,40,1);
-}
 
 .price-margin {
 	margin: 0 1.5rem 1.5rem 3rem;
@@ -268,9 +260,8 @@ button:hover {
 	margin-left: -40%;
 }
 
-.pricing-back {
+.back {
 	background-image: url(../images/seats.jpg);
-
 }
 
 .circle {
