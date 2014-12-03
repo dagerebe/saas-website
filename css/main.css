@@ -165,6 +165,7 @@ button:active {
 	margin-right: auto;
 	margin-left: auto;
 	width: 50%;
+	padding-bottom: .75rem;
 }
 
 .icon-back {
@@ -173,11 +174,12 @@ button:active {
 }
 
 .why-title {
-	color: white;
+	color: rgba(255,247,0,1);
 	line-height: 1.7rem;
 }
 
 .why-copy {
+	padding-top: .6rem;
 	color: white;
 }
 
@@ -246,6 +248,7 @@ button:active {
 
 .popcorn {
 	position: relative;
+	-webkit-transform: scale(.4);
 	transform: scale(.4);
 	margin-left: -50%;
 }
@@ -257,8 +260,6 @@ button:active {
 .circle {
 	width: 220px;
 	height: 190px;
-	-moz-border-radius: 50%;
-	-webkir-border-radius: 50%;
 	border-radius: 50%;
 	background: rgb(241,242,242);
 	position: absolute;
@@ -267,8 +268,6 @@ button:active {
 .circle-1{
 	width: 130px;
 	height: 130px;
-	-moz-border-radius: 50%;
-	-webkir-border-radius: 50%;
 	border-radius: 50%;
 	background: rgb(241,242,242);
 	position: absolute;
@@ -279,8 +278,6 @@ button:active {
 .circle-2 {
 	width: 160px;
 	height: 160px;
-	-moz-border-radius: 50%;
-	-webkir-border-radius: 50%;
 	border-radius: 50%;
 	background: rgb(241,242,242);
 	position: absolute;
@@ -292,8 +289,6 @@ button:active {
 .circle-3 {
 	width: 120px;
 	height: 120px;
-	-moz-border-radius: 50%;
-	-webkir-border-radius: 50%;
 	border-radius: 50%;
 	background: rgb(241,242,242);
 	position: absolute;
@@ -331,6 +326,7 @@ input:hover {
 	width: 80%;
 	left: 50%;
 	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
 
