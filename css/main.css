@@ -171,10 +171,15 @@ button:hover {
 	color: #fff;
 }
 
-.why {
+button:active {
 	background-color: rgba(40,40,40,1);
+	color: rgba(255,247,0,1);	
+}
+
+.why {
+	background-color: white;
 	text-align: center;
-	color: white;
+	color: rgba(40,40,40,1);
 }
 
 .icons {
@@ -184,13 +189,13 @@ button:hover {
 }
 
 .icon-back {
-	background-color: rgba(100,100,100,1);
-	background-image: url(../images/seats.jpg);
+	background-color: rgba(40,40,40,1);
 	text-align: center;
 }
 
 .why-title {
 	color: white;
+	line-height: 1.7rem;
 }
 
 .why-copy {
@@ -234,6 +239,10 @@ button:hover {
 	font-weight: 600;
 }
 
+.line {
+	border: none;
+}
+
 .foot {
 	background-color: rgba(40,40,40,1);
 }
@@ -245,7 +254,7 @@ button:hover {
 
 
 .price-margin {
-	margin: 0 1.5rem 1.5rem 3rem;
+	padding: 0 1.5rem 1.5rem 3rem;
 }
 
 .price-box {
@@ -261,7 +270,7 @@ button:hover {
 }
 
 .back {
-	background-image: url(../images/seats.jpg);
+	background-color: rgba(40,40,40,1);
 }
 
 .circle {
@@ -316,17 +325,22 @@ button:hover {
 
 .box-1 {
 	text-align: center;
-	background-color: rgba(255,247,0,0.3);
+	background-color: rgba(255,247,0,0.4);
 }
 
 .box-2 {
 	text-align: center;
-	background-color: rgba(40,40,40,0.5);
+	background-color: rgba(40,40,40,1);
 }
 
 .box-3 {
 	text-align: center;
-	background-color: rgba(40,40,40,0.8);
+	background-color: rgba(40,40,40,1);
+}
+
+.line {
+	border: solid 2rem;
+	color: white;
 }
 
 }
@@ -346,17 +360,21 @@ button:hover {
 
 .box-1 {
 	text-align: center;
-	background-color: rgba(40,40,40,0.5);
+	background-color: rgba(40,40,40,1);
 }
 
 .box-2 {
 	text-align: center;
-	background-color: rgba(255,247,0,0.3);
+	background-color: rgba(255,247,0,0.4);
 }
 
 .box-3 {
 	text-align: center;
-	background-color: rgba(40,40,40,0.8);
+	background-color: rgba(40,40,40,1);
+}
+
+.line {
+	border: none;
 }
 
 }
