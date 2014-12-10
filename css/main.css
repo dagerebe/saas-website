@@ -104,6 +104,11 @@ img {
 	color: rgba(40,40,40,1);
 }
 
+.sign-up {
+	border: solid 1px;
+	margin: .5rem;
+}
+
 .billboard {
 	background-color: rgba(255,247,0,1);	
 	background-image: url(../images/billboard.jpg);
@@ -111,6 +116,21 @@ img {
 	background-size: 100%;
 	overflow: hidden;
 	height: 30rem;
+}
+
+.billboard-pricing {
+	background-color: rgba(255,247,0,1);	
+	background-image: url(../images/billboard.jpg);
+	width: 100%;
+	background-size: 100%;
+	overflow: hidden;
+	height: 17rem;
+}
+
+.arrow {
+	width: 15%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .title {
@@ -235,69 +255,49 @@ button:active {
 	font-weight: 500;
 }
 
+.price-title {
+	position: relative;
+	z-index: 200;
+	color: rgba(255,247,0,1);
+}
 
-.price-margin {
-	padding: 0 1.5rem 1.5rem 3rem;
+.price-copy {
+	position: relative;
+	background-color: rgba(40,40,40,0.5);
+	color: white;
+	z-index: 200;
 }
 
 .price-box {
-	background-color: grey;
 	text-align: center;
-	margin-top: 2rem;
 }
 
-.popcorn {
-	position: relative;
-	-webkit-transform: scale(.4);
-	transform: scale(.4);
-	margin-left: -50%;
+.popcorn-s {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popcorn-m {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popcorn-l {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.popcorn-xl {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .back {
 	background-color: rgba(40,40,40,1);
-}
-
-.circle {
-	width: 220px;
-	height: 190px;
-	border-radius: 50%;
-	background: rgb(241,242,242);
-	position: absolute;
-}
-
-.circle-1{
-	width: 130px;
-	height: 130px;
-	border-radius: 50%;
-	background: rgb(241,242,242);
-	position: absolute;
-	top: 3rem;
-	left: 9rem;
-}
-
-.circle-2 {
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
-	background: rgb(241,242,242);
-	position: absolute;
-	top: 6rem;
-	left: 5rem;
-
-}
-
-.circle-3 {
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	background: rgb(241,242,242);
-	position: absolute;
-	top: 8rem;
-}
-
-.price-title {
-	position: relative;
-	z-index: 200;
 }
 
 label {
@@ -313,7 +313,12 @@ input + label {
   height: 3em;
 }
 
-input:hover {
+.wid:focus {
+	outline: 3px solid rgba(255,247,0,1);
+}
+
+input:hover
+input:active {
   border-color: #2F4F4F; 
 }
 
@@ -332,6 +337,10 @@ input:hover {
 
 
 @media only screen and (min-width: 38em) {
+
+.logo {
+	width: 70%;
+}
 
 .box-1 {
 	text-align: center;
@@ -357,12 +366,18 @@ input:hover {
 	height: auto;
 }
 
+
+
 }
 
 
 
 
 @media only screen and (min-width: 60em) {
+
+.logo {
+	width: 85%;
+}
 
 .title-block {
 	text-align: left;
@@ -394,6 +409,9 @@ input:hover {
 .quote {
 	height: 10rem;
 }
+
+
+
 
 }
 
