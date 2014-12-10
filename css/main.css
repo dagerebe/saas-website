@@ -127,8 +127,27 @@ img {
 	height: 17rem;
 }
 
+.billboard-thanks {
+	background-color: rgba(255,247,0,1);	
+	background-image: url(../images/billboard.jpg);
+	width: 100%;
+	background-size: 100%;
+	overflow: hidden;
+	height: 25rem;
+}
+
+.billboard-form {
+	background-color: rgba(255,247,0,1);	
+	background-image: url(../images/billboard.jpg);
+	width: 100%;
+	background-size: 100%;
+	overflow: hidden;
+	height: 20rem;
+}
+
 .arrow {
 	width: 15%;
+	padding-top: 1rem;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -137,6 +156,8 @@ img {
 	font-weight: 900;
 	color: rgba(255,247,0,1);
 	text-transform: capitalize;
+	font-size: 3rem;
+	line-height: 3rem;
 }
 
 .subhead {
@@ -240,6 +261,17 @@ button:active {
 	font-weight: 600;
 	position: relative;
 	height: 10rem;
+}
+
+.author {
+	font-weight: 300;
+	font-size: .75rem;
+	line-height: 1.5rem;
+}
+
+.price-button {
+	width: 8rem;
+	margin-bottom: 1.5rem;
 }
 
 .line {
@@ -357,16 +389,45 @@ input:active {
 	background-color: rgba(60,60,60,1);
 }
 
+.box-4 {
+	text-align: center;
+	background-color: rgba(255,247,0,0.1);
+}
+
 .line {
 	border: solid 2rem;
 	color: white;
 }
 
 .quote {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
 	height: auto;
 }
 
+.subhead {
+	padding-left: 15%;
+	padding-right: 15%;
+}
 
+.title {
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+}
+
+.why-us-para {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.author {
+	font-size: 1rem;
+	line-height: 1.8rem;
+}
+
+.arrow {
+	width: 10%;
+}
 
 }
 
@@ -377,14 +438,6 @@ input:active {
 
 .logo {
 	width: 85%;
-}
-
-.title-block {
-	text-align: left;
-}
-
-.title {
-	padding-top: 3rem;
 }
 
 .box-1 {
@@ -410,6 +463,30 @@ input:active {
 	height: 10rem;
 }
 
+.subhead {
+	padding-left: 25%;
+	padding-right: 25%
+}
+
+.title {
+	font-size: 4.5rem;
+	line-height: 4.5rem;
+	padding-left: 5%;
+}
+
+.why-us-para {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.quote {
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+}
+.author {
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+}
 
 
 
