@@ -478,6 +478,10 @@ label {
 		padding-right: 15%;
 	}
 
+	.back {
+		background-color: rgba(40,40,40,1);
+	}
+
 	.box-1 {
 		text-align: center;
 		background-color: rgba(255,247,0,0.4);
