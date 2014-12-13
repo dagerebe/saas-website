@@ -182,7 +182,29 @@ img {
 	border: none;
 	background-color: rgba(255,247,0,0.8);
 	font-weight: 800;
-	padding: .5em .5em;
+	padding: .5em;
+	margin-right: 8rem;
+	margin-left: 8rem;
+}
+
+.button-form {
+	color: rgba(40,40,40,1);
+	border: none;
+	background-color: rgba(255,247,0,0.8);
+	font-weight: 800;
+	padding: .5rem;
+	margin-top: 1.5rem;
+	margin-right: 6rem;
+	margin-left: 6rem;
+}
+
+.button-text {
+		text-decoration: none;
+		color: rgb(40,40,40);
+		font-weight: 900;
+		font-size: 1.3rem;
+		text-align: center;
+		line-height: 1.3rem;
 }
 
 .button:hover {
