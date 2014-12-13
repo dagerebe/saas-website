@@ -53,6 +53,14 @@ img {
     width: 100%;
 }
 
+a:focus {
+	outline: 3px solid rgb(40,40,40);
+}
+
+.push-top-none {
+  margin-top: 0;
+}
+
 .head {
     background-color: rgba(40,40,40,1);
     overflow: hidden;
@@ -145,12 +153,8 @@ img {
 	height: 20rem;
 }
 
-.arrow {
-	width: 15%;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-right: auto;
-	margin-left: auto;
+.title-block {
+	text-align: center;
 }
 
 .title {
@@ -164,18 +168,6 @@ img {
 .subhead {
 	font-weight: 500;
 	color: white;
-}
-
-.title-block {
-	text-align: center;
-}
-
-.middle {
-	text-align: center;
-}
-
-.push-top-none {
-  margin-top: 0;
 }
 
 .button {
@@ -237,32 +229,19 @@ img {
 	color: #fff;
 }
 
+.middle {
+	text-align: center;
+}
+
 .why {
 	background-color: white;
 	text-align: center;
 	color: rgba(40,40,40,1);
 }
 
-.icons {
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
-	padding-bottom: .75rem;
-}
-
 .icon-back {
 	background-color: rgba(40,40,40,1);
 	text-align: center;
-}
-
-.why-title {
-	color: rgba(255,247,0,1);
-	line-height: 1.7rem;
-}
-
-.why-copy {
-	padding-top: .6rem;
-	color: white;
 }
 
 .box-1 {
@@ -280,6 +259,42 @@ img {
 	background-color: rgba(40,40,40,1);
 }
 
+.icons {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	padding-bottom: .75rem;
+}
+
+.why-title {
+	color: rgba(255,247,0,1);
+	line-height: 1.7rem;
+}
+
+.why-copy {
+	padding-top: .6rem;
+	color: white;
+}
+
+.quote blockquote {
+	position: absolute;
+	width: 80%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.quote {
+	line-height: 1.2rem;
+	text-align: center;
+	background-color: rgba(255,247,0,1);
+	color: black;
+	font-weight: 600;
+	position: relative;
+	height: 10rem;
+}
+
 .quote-marks:before {
 		position: relative;
 		font-weight: 900;
@@ -294,29 +309,10 @@ img {
 	    font-weight: 500;
 }
 
-.quote {
-	line-height: 1.2rem;
-	text-align: center;
-	background-color: rgba(255,247,0,1);
-	color: black;
-	font-weight: 600;
-	position: relative;
-	height: 10rem;
-}
-
 .author {
 	font-weight: 300;
 	font-size: .75rem;
 	line-height: 1.5rem;
-}
-
-.price-button {
-	width: 8rem;
-	margin-bottom: 1.5rem;
-}
-
-.line {
-	border: none;
 }
 
 .foot {
@@ -328,21 +324,12 @@ img {
 	font-weight: 500;
 }
 
-.price-title {
-	position: relative;
-	z-index: 200;
-	color: rgba(255,247,0,1);
-}
-
-.price-copy {
-	position: relative;
-	background-color: rgba(40,40,40,0.5);
-	color: white;
-	z-index: 200;
-}
-
-.price-box {
-	text-align: center;
+.arrow {
+	width: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .popcorn-s {
@@ -369,16 +356,36 @@ img {
 	margin-right: auto;
 }
 
-.back {
-	background-color: rgba(40,40,40,1);
+.price-box {
+	text-align: center;
 }
 
-label {
-  display: block;
+.price-title {
+	position: relative;
+	z-index: 200;
+	color: rgba(255,247,0,1);
 }
 
-input + label {
-  display: inline-block;
+.price-copy {
+	position: relative;
+	background-color: rgba(40,40,40,0.5);
+	color: white;
+	z-index: 200;
+}
+
+.price-button {
+	width: 8rem;
+	margin-bottom: 1.5rem;
+}
+
+.side-form {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.form-title {
+	  font-weight: 500;
+	  padding-top: .7rem;
 }
 
 .wid {
@@ -387,45 +394,17 @@ input + label {
   border: solid 1px rgba(40,40,40,1);
 }
 
-.circle:focus {
-	outline: 3px solid rgba(255,247,0,1);
-}
-
 .wid:focus {
 	outline: 3px solid rgba(255,247,0,1);
 }
 
-input:hover
-input:active {
-  border-color: #2F4F4F; 
-}
-
-.form-title {
-	  font-weight: 500;
-	  padding-top: .7rem;
+.e-p {
+	background-color: rgba(40,40,40,.1);
 }
 
 .form-bill {
 	font-weight: 600;
 	font-size: 1.2rem;
-}
-
-.terms {
-	white-space: nowrap;
-	min-width: 20rem;
-}
-
-.quote blockquote {
-	position: absolute;
-	width: 80%;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	transform: translate(-50%,-50%);
-}
-
-.e-p {
-	background-color: rgba(40,40,40,.1);
 }
 
 .half-form-ex {
@@ -436,13 +415,22 @@ input:active {
 	padding-left: 1rem;
 }
 
-.side-form {
-	margin-right: 10%;
-	margin-left: 10%;
+input + label {
+  display: inline-block;
 }
 
-.arrow {
-	width: 4rem;
+input:hover
+input:active {
+  border-color: #2F4F4F; 
+}
+
+label {
+  display: block;
+}
+
+.terms {
+	white-space: nowrap;
+	min-width: 20rem;
 }
 
 .thanks-back {
@@ -451,170 +439,155 @@ input:active {
 
 @media only screen and (min-width: 38em) {
 
-.logo {
-	width: 70%;
-}
+	.logo {
+		width: 70%;
+	}
 
-.nav > ul {
-	margin-right: 1.5rem;
-	text-align: right;
-}
+	.nav > ul {
+		margin-right: 1.5rem;
+		text-align: right;
+	}
 
-.nav a,
-.nav a:link,
-.nav a:visited {
-	padding: .5rem;
-}
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		padding: .5rem;
+	}
 
-.billboard {
-	background-size: 100%;
-	height: 27rem;
-}
+	.billboard {
+		background-size: 100%;
+		height: 27rem;
+	}
 
-.billboard-pricing {
-	background-size: 100%;
-	height: 20rem;
-}
+	.billboard-pricing {
+		background-size: 100%;
+		height: 20rem;
+	}
 
-.billboard-form {
-	background-size: 100%;
-	height: 20rem;
-}
+	.billboard-form {
+		background-size: 100%;
+		height: 20rem;
+	}
 
-.box-1 {
-	text-align: center;
-	background-color: rgba(255,247,0,0.4);
-}
+	.title {
+		font-size: 3.5rem;
+		line-height: 3.5rem;
+	}
 
-.box-2 {
-	text-align: center;
-	background-color: rgba(40,40,40,1);
-}
+	.subhead {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
 
-.box-3 {
-	text-align: center;
-	background-color: rgba(60,60,60,1);
-}
+	.box-1 {
+		text-align: center;
+		background-color: rgba(255,247,0,0.4);
+	}
 
-.box-4 {
-	text-align: center;
-	background-color: rgba(255,247,0,0.1);
-}
+	.box-2 {
+		text-align: center;
+		background-color: rgba(40,40,40,1);
+	}
 
-.line {
-	border: solid 2rem;
-	color: white;
-}
+	.box-3 {
+		text-align: center;
+		background-color: rgba(60,60,60,1);
+	}
 
-.quote {
-	font-size: 1.2rem;
-	line-height: 1.4rem;
-	height: auto;
-}
+	.box-4 {
+		text-align: center;
+		background-color: rgba(255,247,0,0.1);
+	}
 
-.subhead {
-	padding-left: 15%;
-	padding-right: 15%;
-}c
+	.why-us-para {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 
-.title {
-	font-size: 3.5rem;
-	line-height: 3.5rem;
-}
+	.quote {
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+		height: auto;
+	}
 
-.why-us-para {
-	padding-left: 10%;
-	padding-right: 10%;
-}
+	.author {
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
 
-.author {
-	font-size: 1rem;
-	line-height: 1.8rem;
-}
+	.arrow {
+		width: 5rem;
+	}
 
-.arrow {
-	width: 5rem;
-}
-
-.side-form {
-	margin-right: 20%;
-	margin-left: 20%;
-}
+	.side-form {
+		margin-right: 20%;
+		margin-left: 20%;
+	}
 
 }
-
-
-
 
 @media only screen and (min-width: 60em) {
 
-.logo {
-	width: 85%;
-}
+	.logo {
+		width: 85%;
+	}
 
-.nav a,
-.nav a:link,
-.nav a:visited {
-	padding: .8rem;
-}
+	.nav a,
+	.nav a:link,
+	.nav a:visited {
+		padding: .8rem;
+	}
 
-.box-1 {
-	text-align: center;
-	background-color: rgba(40,40,40,1);
-}
+	.title {
+		font-size: 4.5rem;
+		line-height: 4.5rem;
+		padding-left: 5%;
+	}
 
-.box-2 {
-	text-align: center;
-	background-color: rgba(255,247,0,0.4);
-}
+	.subhead {
+		padding-left: 25%;
+		padding-right: 25%
+	}
 
-.box-3 {
-	text-align: center;
-	background-color: rgba(40,40,40,1);
-}
+	.box-1 {
+		text-align: center;
+		background-color: rgba(40,40,40,1);
+	}
 
-.line {
-	border: none;
-}
+	.box-2 {
+		text-align: center;
+		background-color: rgba(255,247,0,0.4);
+	}
 
-.quote {
-	height: 10rem;
-}
+	.box-3 {
+		text-align: center;
+		background-color: rgba(40,40,40,1);
+	}
 
-.subhead {
-	padding-left: 25%;
-	padding-right: 25%
-}
+	.why-us-para {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
 
-.title {
-	font-size: 4.5rem;
-	line-height: 4.5rem;
-	padding-left: 5%;
-}
+	.quote {
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+		height: 10rem;
+	}
 
-.why-us-para {
-	padding-left: 15%;
-	padding-right: 15%;
-}
+	.author {
+		font-size: 1.2rem;
+		line-height: 2.5rem;
+	}
 
-.quote {
-	font-size: 1.4rem;
-	line-height: 1.6rem;
-}
-.author {
-	font-size: 1.2rem;
-	line-height: 2.5rem;
-}
+	.arrow {
+		width: 6rem;
+	}
 
-.side-form {
-	margin-right: 25%;
-	margin-left: 25%;
-}
-
-.arrow {
-	width: 6rem;
-}
-
+	.side-form {
+		margin-right: 25%;
+		margin-left: 25%;
+	}
 
 }
 

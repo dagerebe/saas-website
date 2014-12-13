@@ -17,10 +17,10 @@
   <div class="grid grid-middle">
     <div class="gutter pad-t-1-2 pad-b-1-2 unit unit-s-1 unit-m-1-3 unit-l-1-4">
       <a href="index.html"><img class="logo" src="images/logo.svg" alt=""></a>
-    <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
-  </div>
+      <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+    </div>
     <div class="unit unit-s-1 unit-m-2-3 unit-l-3-4">
-      <nav class="nav">
+      <nav role="navigation" class="nav">
         <ul>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="index.html#features">Features</a></li>
@@ -31,108 +31,97 @@
     </div>
   </div>
 </header>
-<div class="billboard-form grid grid-middle">
+
+
+<div role="banner" class="billboard-form grid grid-middle">
   <div class="gutter title-block unit unit-s-1 unit-m-1 unit-l-1">
     <h1 class="title">START<br>WATCHING<br>NOW</h1>
     <p class="subhead mega push-none">Quick & Easy Sign Up!</p>
   </div>
 </div>
 
+<main role="main">
+  <form class="grid pad-t-1-2 pad-b"action="thanks.html" method="post">
+    <div class="side-form unit unit-s-1 unit-m-1 unit-l-1">
 
-<form class="grid pad-t-1-2 pad-b"action="thanks.html" method="post">
-<div class="side-form unit unit-s-1 unit-m-1 unit-l-1">
-  <div> 
-    <label class="form-title" for="email">E-mail</label>
-    <input class="wid e-p" type="email" id="email">
-  </div>
+      <div> 
+        <label class="form-title" for="email">E-mail</label>
+        <input class="wid e-p" type="email" id="email">
+      </div>
 
-    <div class="unit unit-s-1 unit-m-1 unit-l-1"> 
-    <label class="form-title" for="password">Password</label>
-    <input class="wid e-p" type="password" id="password">
-  </div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1"> 
+        <label class="form-title" for="password">Password</label>
+        <input class="wid e-p" type="password" id="password">
+      </div>
+    
+      <div class="pad-top unit unit-s-1 unit-m-1 unit-l-1">
+        <p class="push-none form-bill">Billing Information</p>
+      </div>
 
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="fname">First Name</label>
+        <input class="wid" id="fname">
+      </div>
 
-  <div class="pad-top unit unit-s-1 unit-m-1 unit-l-1">
-    <p class="push-none form-bill">Billing Information</p>
-  </div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="lname">Last Name</label>
+        <input class="wid" id="lname">
+      </div>
 
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
-    <label class="form-title" for="fname">First Name</label>
-    <input class="wid" id="fname">
-  </div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="visa">Visa</label>
+        </span>
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="mastercard">Mastercard</label>
+        </span>
+        <span class="terms">
+          <input type="radio" id="card-type" name="card-type">
+          <label class="form-title" for="amex">Amex</label>
+        </span>
+      </div>
 
-   <div class="unit unit-s-1 unit-m-1 unit-l-1">
-    <label class="form-title" for="lname">Last Name</label>
-    <input class="wid" id="lname">
-  </div>
+      <div class="unit unit-s-1 unit-m-1 unit-l-1">
+        <label class="form-title" for="c/c">Credit Card</label>
+        <input class="wid" id="c/c">
+      </div>
 
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
-      <span class="terms">
-        <input type="radio" id="card-type" name="card-type">
-        <label class="form-title" for="visa">Visa</label>
-      </span>
-      <span class="terms">
-        <input type="radio" id="card-type" name="card-type">
-         <label class="form-title" for="mastercard">Mastercard</label>
-      </span>
-      <span class="terms">
-        <input type="radio" id="card-type" name="card-type">
-        <label class="circles" class="form-title" for="amex">Amex</label>
-      </span>
+      <div class="grid">
+        <div class="half-form-ex unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
+          <label class="form-title" for="expire-date">Expiry Date</label>
+          <input class="wid" id="expire-date" type="date">
+        </div>
+
+        <div class="half-form-cvv unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
+          <label class="form-title" for="cvv">CVV</label>
+          <input class="wid" id="cvv">
+        </div>
+
+        <div>
+          <span class="terms unit unit-s-1 unit-m-1 unit-l-1">
+            <input type="radio" id="agree" name="terms-of-service">
+            <label class="form-title milli" for="agree">I agree to the Terms and Conditions</label>
+          </span>
+        </div>
+
+        <div class="button-form middle unit unit-s-1 unit-m-1 unit-l-1">
+          <a type="submit" class="button-text" href="thanks.html">START<br>WATCHING<br>NOW</a>
+        </div>
+
+      </div>
     </div>
-
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
-    <label class="form-title" for="c/c">Credit Card</label>
-    <input class="wid" id="c/c">
-  </div>
-
-<div class="grid">
-  <div class="half-form-ex unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-    <label class="form-title" for="expire-date">Expiry Date</label>
-    <input class="wid" id="expire-date" type="date">
-  </div>
-
-   <div class="half-form-cvv unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-    <label class="form-title" for="cvv">CVV</label>
-    <input class="wid" id="cvv">
-  </div>
-
-  <div>
-      <span class="terms unit unit-s-1 unit-m-1 unit-l-1">
-        <input type="radio" id="agree" name="terms-of-service">
-        <label class="form-title milli" for="agree">I agree to the Terms and Conditions</label>
-      </span>
-    </div>
-
-<div class="button-form middle unit unit-s-1 unit-m-1 unit-l-1">
-  <a type="submit" class="button-text" href="thanks.html">START<br>WATCHING<br>NOW</a>
-  </div>
-</div>
-</div>
-</form>
-
-
+  </form>
+</main>
 
 <footer class="foot">
   <div class="grid">
-    <div class="gutter pad-top copyright unit unit-s-1 unit-m-1-2 unit-l-1-2"> 
+    <div role="contentinfo"  class="gutter pad-top copyright unit unit-s-1 unit-m-1-2 unit-l-1-2"> 
         <p class="micro push-none">© 2014 Popcorn corperation</p>
     </div>
   </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-    
-    
- <script src="js/nav.js"></script>   
-    
 </body>
 </html>

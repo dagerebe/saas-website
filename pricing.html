@@ -12,15 +12,14 @@
 </head>
 <body>
 
-
 <header class="head">
   <div class="grid grid-middle">
     <div class="gutter pad-t-1-2 pad-b-1-2 unit unit-s-1 unit-m-1-3 unit-l-1-4">
       <a href="index.html"><img class="logo" src="images/logo.svg" alt=""></a>
-    <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
-  </div>
+      <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+    </div>
     <div class="unit unit-s-1 unit-m-2-3 unit-l-3-4">
-      <nav class="nav">
+      <nav role="navigation" class="nav">
         <ul>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="index.html#features">Features</a></li>
@@ -32,7 +31,7 @@
   </div>
 </header>
 
-<div class="billboard-pricing grid grid-middle">
+<div role="banner" class="billboard-pricing grid grid-middle">
   <div class="gutter title-block pad-top unit unit-s-1 unit-m-1 unit-l-1">
     <h1 class="title push-top-none">CHOOSE YOUR PLAN</h1>
     <p class="subhead mega">The right plan is waiting for you!</p>
@@ -40,118 +39,100 @@
   </div>
 </div>
 
-<div class="grid grid-middle pad-bottom back">
-  <div class="price-margin unit unit-s-1 unit-m-1-2 unit-l-1-4">  
-    <div class="popcorn-s">
-     <div>
-      <img class="pad-top" src="images/small.svg" href="">
-     </div>
-  </div>
-    <div class="price-box gutter">
-      <h4 class="price-title push-none">Small</h4>
-      <p class="price-copy">This package includes all your favourite TV shows and movies before 2008!</p>  
-     <div class="button" >
-          <a type="submit" class="button-text" href="form.html">$3.99</a> 
-          </div> 
-    </div>
-  </div>
-
-  <div class="price-margin unit unit-s-1 unit-m-1-2 unit-l-1-4">
-    <div class="popcorn-m">
-       <div>
-      <img class="pad-top" src="images/medium.svg" href="">
-     </div>
-    </div>
+<main role="main">
+  <div class="grid grid-middle pad-bottom back">
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">  
+      <div class="popcorn-s">
+        <div>
+          <img class="pad-top" src="images/small.svg" href="">
+        </div>
+      </div>
       <div class="price-box gutter">
-        <h4 class="price-title push-none">Medium</h4>
-        <p class="price-copy">This package includes all your favourite TV shows and movies that have been out for over a year.</p> 
+          <h4 class="price-title push-none">Small</h4>
+          <p class="price-copy">This package includes all your favourite TV shows and movies before 2008!</p>  
+        <div class="button" >
+          <a type="submit" class="button-text" href="form.html">$3.99</a> 
+        </div> 
+      </div>
+    </div>
+
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+      <div class="popcorn-m">
+      <div>
+        <img class="pad-top" src="images/medium.svg" href="">
+      </div>
+      </div>
+      <div class="price-box gutter">
+          <h4 class="price-title push-none">Medium</h4>
+          <p class="price-copy">This package includes all your favourite TV shows and movies that have been out for over a year.</p> 
         <div class="button" >
           <a type="submit" class="button-text" href="form.html">$5.99</a> 
-          </div>   
+        </div>   
       </div>
     </div>
 
-  <div class="price-margin unit unit-s-1 unit-m-1-2 unit-l-1-4">
-    <div class="popcorn-l">
-      <div>
-      <img class="pad-top" src="images/large.svg" href="">
-     </div>
-    </div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+      <div class="popcorn-l">
+        <div>
+         <img class="pad-top" src="images/large.svg" href="">
+        </div>
+      </div>
       <div class="price-box gutter">
-        <h4 class="price-title push-none">Large</h4>
-        <p class="price-copy">This package includes all your favourite TV shows and movies that were just released on DVD!</p>     
-      <div class="button" >
+          <h4 class="price-title push-none">Large</h4>
+          <p class="price-copy">This package includes all your favourite TV shows and movies that were just released on DVD!</p>     
+        <div class="button" >
           <a type="submit" class="button-text" href="form.html">$9.99</a> 
-          </div> 
+        </div> 
       </div>
     </div>
 
-  <div class="price-margin unit unit-s-1 unit-m-1-2 unit-l-1-4">
-    <div class="popcorn-xl">
-       <div>
-      <img class="pad-top" src="images/x-large.svg" href="">
-     </div>
-    </div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+      <div class="popcorn-xl">
+        <div>
+          <img class="pad-top" src="images/x-large.svg" href="">
+        </div>
+      </div>
       <div class="price-box gutter">
-        <h4 class="price-title push-none">X-Large</h4>
-        <p class="price-copy">NEVER BEFORE SEEN! This package gets you access to watch TV shows that have just aired the night before. AND! Movies that were just in theatres the night before.</p>       
-     <div class="button" >
+          <h4 class="price-title push-none">X-Large</h4>
+          <p class="price-copy">NEVER BEFORE SEEN! This package gets you access to watch TV shows that have just aired the night before. AND! Movies that were just in theatres the night before.</p>       
+        <div class="button" >
           <a type="submit" class="button-text" href="form.html">$16.99</a> 
-          </div> 
+        </div> 
+      </div>
     </div>
   </div>
-</div>
 
-<div class="grid icon-back">
-<div class="why island unit unit-s-1 unit-m-1 unit-l-1-2">
-  <h2 class="tera push-none">Why Choose Us?</h2>
-  <p>We have researched what people watch and how people watch it for a long time before we have launched our site and we are still learning! We have the most options then any other Tv show and movie streaming site out there. From old favourites to the newest releases <em>Popcorn</em> is the way to go!</p>
-</div>
-  <div  class="pad-top gutter-2 box-2 unit unit-s-1 unit-m-1-2 unit-l-1-4">
-    <img class="icons" src="images/best-quality.svg" alt="">
-    <h4 class="why-title push-none">Best Quality</h4>
-    <p class="why-copy">All of our movies and TV shows are avalible in 1080p HD.</p>
+  <div class="grid icon-back">
+    <div class="why island unit unit-s-1 unit-m-1 unit-l-1-2">
+      <h2 class="tera push-none">Why Choose Us?</h2>
+      <p>We have researched what people watch and how people watch it for a long time before we have launched our site and we are still learning! We have the most options then any other Tv show and movie streaming site out there. From old favourites to the newest releases <em>Popcorn</em> is the way to go!</p>
+    </div>
+    <div  class="pad-top gutter-2 box-2 unit unit-s-1 unit-m-1-2 unit-l-1-4">
+      <img class="icons" src="images/best-quality.svg" alt="">
+      <h4 class="why-title push-none">Best Quality</h4>
+      <p class="why-copy">All of our movies and TV shows are avalible in 1080p HD.</p>
+    </div>
+    <div  class="pad-top gutter-2 box-4 unit unit-s-1 unit-m-1-2 unit-l-1-4">
+      <img class="icons" src="images/watch-any.svg" alt="">
+      <h4 class="why-title push-none">Watch on any Device</h4>
+      <p class="why-copy">Watch anywhere on any device with our mobile apps.</p>
+    </div>
+    <div class="island-2 quote unit unit-s-1 unit-m-1 unit-l-1">
+      <blockquote>
+        <p class="quote-marks push-none">Can't get enough of the quality viewing experience with a reliable service.</p>
+        <p class="push-none milli"><i>–Jane Doe</i></p>
+      </blockquote>
+    </div>
   </div>
-  <div  class="pad-top gutter-2 box-4 unit unit-s-1 unit-m-1-2 unit-l-1-4">
-    <img class="icons" src="images/watch-any.svg" alt="">
-    <h4 class="why-title push-none">Watch on any Device</h4>
-    <p class="why-copy">Watch anywhere on any device with our mobile apps.</p>
-  </div>
-  <div class="island-2 quote unit unit-s-1 unit-m-1 unit-l-1">
-    <blockquote>
-            <p class="quote-marks push-none">Can't get enough of the quality viewing experience with a reliable service.</p>
-            <p class="push-none milli"><i>–Jane Doe</i></p>
-        </blockquote>
-  </div>
-  </div>
-
-
-
-
-
-
-
+</main>
 
 <footer class="foot">
   <div class="grid">
-    <div class="gutter pad-top copyright unit unit-s-1 unit-m-1-2 unit-l-1-2"> 
+    <div role="contentinfo" class="gutter pad-top copyright unit unit-s-1 unit-m-1-2 unit-l-1-2"> 
         <p class="micro push-none">© 2014 Popcorn corperation</p>
     </div>
   </div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-    
-    
- <script src="js/nav.js"></script>   
-    
+ 
 </body>
 </html>
