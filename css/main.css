@@ -415,6 +415,10 @@ a:focus {
 	padding-left: 1rem;
 }
 
+.terms {
+	white-space: nowrap;
+}
+
 input + label {
   display: inline-block;
 }
@@ -426,11 +430,6 @@ input:active {
 
 label {
   display: block;
-}
-
-.terms {
-	white-space: nowrap;
-	min-width: 20rem;
 }
 
 .thanks-back {
