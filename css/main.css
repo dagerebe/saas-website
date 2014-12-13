@@ -113,7 +113,7 @@ img {
 	background-color: rgba(255,247,0,1);	
 	background-image: url(../images/billboard.jpg);
 	width: 100%;
-	background-size: 100%;
+	background-size: 120%;
 	overflow: hidden;
 	height: 30rem;
 }
@@ -122,7 +122,7 @@ img {
 	background-color: rgba(255,247,0,1);	
 	background-image: url(../images/billboard.jpg);
 	width: 100%;
-	background-size: 100%;
+	background-size: 120%;
 	overflow: hidden;
 	height: 20rem;
 }
@@ -140,7 +140,7 @@ img {
 	background-color: rgba(255,247,0,1);	
 	background-image: url(../images/billboard.jpg);
 	width: 100%;
-	background-size: 100%;
+	background-size: 120%;
 	overflow: hidden;
 	height: 20rem;
 }
@@ -148,6 +148,7 @@ img {
 .arrow {
 	width: 15%;
 	padding-top: 1rem;
+	padding-bottom: 1rem;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -463,6 +464,21 @@ input:active {
 .nav a:link,
 .nav a:visited {
 	padding: .5rem;
+}
+
+.billboard {
+	background-size: 100%;
+	height: 27rem;
+}
+
+.billboard-pricing {
+	background-size: 100%;
+	height: 20rem;
+}
+
+.billboard-form {
+	background-size: 100%;
+	height: 20rem;
 }
 
 .box-1 {
