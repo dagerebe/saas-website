@@ -177,7 +177,7 @@ img {
   margin-top: 0;
 }
 
-button {
+.button {
 	color: rgba(40,40,40,1);
 	border: none;
 	background-color: rgba(255,247,0,0.8);
@@ -185,13 +185,13 @@ button {
 	padding: .5em .5em;
 }
 
-button:hover {
+.button:hover {
 	background-color: rgba(255,247,0,0.5);
 	cursor: pointer;
 	color: #fff;
 }
 
-button:active {
+.button:active {
 	background-color: rgba(40,40,40,1);
 	color: rgba(255,247,0,1);	
 }
