@@ -92,7 +92,7 @@ img {
 .nav a:link,
 .nav a:visited {
 	display: block;
-	padding: .5rem;
+	padding: .2rem;
 	color: rgba(255,247,0,1);
 	text-decoration: none;
 }
@@ -106,7 +106,7 @@ img {
 
 .sign-up {
 	border: solid 1px;
-	margin: .5rem;
+	margin: .8rem;
 }
 
 .billboard {
@@ -180,22 +180,28 @@ img {
 .button {
 	color: rgba(40,40,40,1);
 	border: none;
-	background-color: rgba(255,247,0,0.8);
+	background-color: rgba(255,247,0,0.7);
 	font-weight: 800;
 	padding: .5em;
-	margin-right: 8rem;
-	margin-left: 8rem;
+	max-width: 8rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .button-form {
 	color: rgba(40,40,40,1);
 	border: none;
-	background-color: rgba(255,247,0,0.8);
+	background-color: rgba(255,247,0,0.7);
 	font-weight: 800;
 	padding: .5rem;
 	margin-top: 1.5rem;
-	margin-right: 6rem;
-	margin-left: 6rem;
+	max-width: 8rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button-bottom {
+	padding-top: 1.5rem;
 }
 
 .button-text {
@@ -208,14 +214,26 @@ img {
 }
 
 .button:hover {
-	background-color: rgba(255,247,0,0.5);
+	background-color: rgba(255,247,0,1);
 	cursor: pointer;
 	color: #fff;
 }
 
-.button:active {
-	background-color: rgba(40,40,40,1);
-	color: rgba(255,247,0,1);	
+.button-form:hover {
+	background-color: rgba(255,247,0,1);
+	cursor: pointer;
+	color: #fff;
+}
+
+.button:hover {
+	background-color: rgba(255,247,0,1);
+	cursor: pointer;
+	color: #fff;
+}
+.button-form:hover {
+	background-color: rgba(255,247,0,1);
+	cursor: pointer;
+	color: #fff;
 }
 
 .why {
@@ -393,6 +411,7 @@ input:active {
 
 .terms {
 	white-space: nowrap;
+	min-width: 20rem;
 }
 
 .quote blockquote {
@@ -421,6 +440,14 @@ input:active {
 	margin-left: 10%;
 }
 
+.arrow {
+	width: 4rem;
+}
+
+.thanks-back {
+	background-color: rgba(40,40,40,1);
+}
+
 @media only screen and (min-width: 38em) {
 
 .logo {
@@ -428,8 +455,16 @@ input:active {
 }
 
 .nav > ul {
+	margin-right: 1.5rem;
 	text-align: right;
 }
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	padding: .5rem;
+}
+
 .box-1 {
 	text-align: center;
 	background-color: rgba(255,247,0,0.4);
@@ -482,7 +517,7 @@ input:active {
 }
 
 .arrow {
-	width: 10%;
+	width: 5rem;
 }
 
 .side-form {
@@ -499,6 +534,12 @@ input:active {
 
 .logo {
 	width: 85%;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	padding: .8rem;
 }
 
 .box-1 {
@@ -552,6 +593,10 @@ input:active {
 .side-form {
 	margin-right: 25%;
 	margin-left: 25%;
+}
+
+.arrow {
+	width: 6rem;
 }
 
 
