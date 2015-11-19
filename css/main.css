@@ -115,11 +115,13 @@ a:focus {
 .sign-up {
 	border: solid 1px;
 	margin: .8rem;
+	border-radius: 10px;
 }
 
 .billboard {
 	background-color: rgba(255,247,0,1);	
-	background-image: url(../images/billboard.jpg);
+	background-image: url(../images/banner.jpg);
+	background-position: center center;
 	width: 100%;
 	background-size: 120%;
 	overflow: hidden;
@@ -128,7 +130,7 @@ a:focus {
 
 .billboard-pricing {
 	background-color: rgba(255,247,0,1);	
-	background-image: url(../images/billboard.jpg);
+	background-image: url(../images/banner.jpg);
 	width: 100%;
 	background-size: 120%;
 	overflow: hidden;
@@ -137,7 +139,7 @@ a:focus {
 
 .billboard-thanks {
 	background-color: rgba(255,247,0,1);	
-	background-image: url(../images/billboard.jpg);
+	background-image: url(../images/banner.jpg);
 	width: 100%;
 	background-size: 100%;
 	overflow: hidden;
@@ -146,7 +148,7 @@ a:focus {
 
 .billboard-form {
 	background-color: rgba(255,247,0,1);	
-	background-image: url(../images/billboard.jpg);
+	background-image: url(../images/banner.jpg);
 	width: 100%;
 	background-size: 120%;
 	overflow: hidden;
@@ -160,9 +162,7 @@ a:focus {
 .title {
 	font-weight: 900;
 	color: rgba(255,247,0,1);
-	text-transform: capitalize;
-	font-size: 3rem;
-	line-height: 3rem;
+	text-transform: uppercase;
 }
 
 .subhead {
@@ -171,6 +171,24 @@ a:focus {
 }
 
 .button {
+	color: rgba(40,40,40,1);
+	background-color: rgba(255,247,0,0.7);
+	font-weight: 800;
+	padding: .5em;
+	max-width: 10rem;
+	margin: -8em auto 0 auto;
+}
+
+.button-thanks {
+	color: rgba(40,40,40,1);
+	background-color: rgba(255,247,0,0.7);
+	font-weight: 800;
+	padding: .5em;
+	max-width: 20rem;
+	margin: -8em auto 0 auto;
+}
+
+.button-price {
 	color: rgba(40,40,40,1);
 	border: none;
 	background-color: rgba(255,247,0,0.7);
@@ -181,16 +199,33 @@ a:focus {
 	margin-left: auto;
 }
 
+.button-bottom {
+	color: rgba(40,40,40,1);
+	background-color: rgba(255,247,0,0.7);
+	font-weight: 800;
+	padding: .5em;
+	max-width: 10rem;
+	margin: 0 auto;
+}
+
+.button-form-holder {
+	position: absolute;
+	bottom: 0;
+	left: 38%;
+}
+
 .button-form {
 	color: rgba(40,40,40,1);
 	border: none;
 	background-color: rgba(255,247,0,0.7);
 	font-weight: 800;
 	padding: .5rem;
-	margin-top: 1.5rem;
-	max-width: 8rem;
-	margin-right: auto;
-	margin-left: auto;
+	width: 8rem;
+	text-align: center;
+}
+
+.div-size {
+	max-height: 2em;
 }
 
 .button-bottom {
@@ -198,12 +233,20 @@ a:focus {
 }
 
 .button-text {
-		text-decoration: none;
-		color: rgb(40,40,40);
-		font-weight: 900;
-		font-size: 1.3rem;
-		text-align: center;
-		line-height: 1.3rem;
+	text-decoration: none;
+	color: rgb(40,40,40);
+	font-weight: 800;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.button-text-price {
+	text-decoration: none;
+	color: rgb(40,40,40);
+	font-weight: 900;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 1.3rem;
 }
 
 .button:hover {
@@ -379,8 +422,10 @@ a:focus {
 }
 
 .side-form {
+	position: relative;
 	margin-right: 10%;
 	margin-left: 10%;
+	padding-bottom: 4em;
 }
 
 .form-title {
@@ -484,7 +529,7 @@ label {
 
 	.box-1 {
 		text-align: center;
-		background-color: rgba(255,247,0,0.4);
+		background-color: rgba(80,80,80,1);
 	}
 
 	.box-2 {
@@ -499,7 +544,7 @@ label {
 
 	.box-4 {
 		text-align: center;
-		background-color: rgba(255,247,0,0.1);
+		background-color: rgba(60, 60, 60, 1);
 	}
 
 	.why-us-para {
@@ -554,17 +599,17 @@ label {
 
 	.box-1 {
 		text-align: center;
-		background-color: rgba(40,40,40,1);
+		background-color: rgba(80,80,80,1);
 	}
 
 	.box-2 {
 		text-align: center;
-		background-color: rgba(255,247,0,0.4);
+		background-color: rgba(40,40,40,1);
 	}
 
 	.box-3 {
 		text-align: center;
-		background-color: rgba(40,40,40,1);
+		background-color: rgba(60,60,60,1);
 	}
 
 	.why-us-para {
