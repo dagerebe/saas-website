@@ -436,7 +436,8 @@ a:focus {
 .wid {
   width: 100%;
   height: 3em;
-  border: solid 1px rgba(40,40,40,1);
+  outline: solid 1px grey;
+  border-style: none;
 }
 
 .wid:focus {
